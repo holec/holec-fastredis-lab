@@ -9,3 +9,11 @@ Pull the image and run it with Podman
 podman pull bitnami/redis
 podman run -e ALLOW_EMPTY_PASSWORD=yes -p 6379:6379 bitnami/redis
 ```
+
+or do the same with docker
+
+```
+docker pull bitnami/redis
+docker run -e ALLOW_EMPTY_PASSWORD=yes -p 6379:6379 bitnami/redis
+```
+
